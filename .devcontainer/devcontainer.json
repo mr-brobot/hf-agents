@@ -1,0 +1,21 @@
+{
+    "name": "AI",
+    "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.copilot",
+                "github.copilot-chat",
+                "esbenp.prettier-vscode",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "remoteUser": "vscode",
+    "postCreateCommand": "scripts/setup.sh",
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.12"
+        }
+    }
+}
