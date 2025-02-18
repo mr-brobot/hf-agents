@@ -1,3 +1,3 @@
-# Hugging Face Agents Course
+# Hugging Face Agents
 
 https://huggingface.co/learn/agents-course
